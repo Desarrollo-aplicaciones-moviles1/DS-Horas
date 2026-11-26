@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ícono de la app: el cubo de Deepsource sobre el morado oscuro del prototipo -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/ds_fondo_icono" />
+    <foreground android:drawable="@drawable/ic_launcher_ds_foreground" />
+    <monochrome android:drawable="@drawable/ic_launcher_ds_foreground" />
+</adaptive-icon>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DS Horas</string>
+    <string name="widget_descripcion">Horas por proyecto, registrar y cronómetro con pausa</string>
+    <string name="widget_cronometro_descripcion">Cronómetro del proyecto en curso: pausar, reanudar y finalizar</string>
+    <string name="widget_resumen_descripcion">Horas de hoy, de la semana y el último registro</string>
+    <string name="widget_mini_descripcion">Solo el tiempo. Tócalo para pausar o reanudar</string>
+    <string name="widget_proyectos_descripcion">Tus proyectos con ▶ para iniciar el cronómetro sin abrir la app</string>
+</resources>
