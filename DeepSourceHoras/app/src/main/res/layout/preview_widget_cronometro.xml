@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Vista previa que se ve en el selector de widgets (Android 12+) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_fondo_preview"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="14dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginBottom="6dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/logo_deepsource" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="●  EN CURSO · App Móvil"
+            android:textColor="#6FCF97"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01:24:37"
+            android:textColor="#FFFFFF"
+            android:fontFamily="monospace"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/widget_boton_preview"
+            android:gravity="center"
+            android:text="Pausar"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp" />
+</LinearLayout>

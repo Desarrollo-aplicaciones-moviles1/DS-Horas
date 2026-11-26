@@ -1,0 +1,11 @@
+# Reglas de R8 del proyecto.
+# Los DTO se leen y escriben con Gson por reflexión: sus campos no se pueden renombrar.
+-keep class com.example.deepsourcehoras.data.remote.dto.** { *; }
+# Interfaces de Retrofit (se implementan en tiempo de ejecución)
+-keep,allowobfuscation interface com.example.deepsourcehoras.data.remote.*Api
+-keepattributes Signature, InnerClasses, EnclosingMethod, *Annotation*
+
+# Los widgets (Glance) usan WorkManager, que crea su base Room por reflexión
+# buscando la clase generada "<Base>_Impl". Sin esto el APK release se cae al abrir.
+-keep class * extends androidx.room.RoomDatabase { <init>(); }
+-keep class androidx.work.impl.** { *; }

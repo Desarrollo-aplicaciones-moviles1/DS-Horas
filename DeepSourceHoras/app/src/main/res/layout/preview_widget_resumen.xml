@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Vista previa que se ve en el selector de widgets (Android 12+) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_fondo_preview"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="14dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginBottom="6dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/logo_deepsource" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MI RESUMEN"
+            android:textColor="#8A87A0"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/widget_interno_preview"
+                android:padding="8dp"
+                android:text="Hoy
+2h 15min"
+                android:textColor="#9B8AD4"
+                android:textSize="13sp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/widget_interno_preview"
+                android:padding="8dp"
+                android:text="Esta semana
+18h"
+                android:textColor="#9B8AD4"
+                android:textSize="13sp" />
+        </LinearLayout>
+</LinearLayout>

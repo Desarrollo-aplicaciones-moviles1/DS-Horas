@@ -1,0 +1,5 @@
+package com.deepsource.usuarios.exception;
+
+// Formato único de error que lee la app: {"mensaje": "..."}
+public record ErrorResponse(String mensaje) {
+}

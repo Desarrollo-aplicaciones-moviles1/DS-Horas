@@ -1,0 +1,16 @@
+# ============================================================
+#  Conexión a Supabase para los microservicios
+#  1) Copiar este archivo como  supabase.properties  (misma carpeta)
+#  2) Completar con los datos de: Supabase -> tu proyecto -> botón "Connect" -> "Session pooler"
+#  3) Ejecutar iniciar-microservicios.bat (detecta este archivo y usa Supabase)
+#  supabase.properties tiene la clave de la base: NO subirlo a GitHub (ya está en .gitignore)
+# ============================================================
+
+# Host del "Session pooler" (funciona con IPv4, puerto 5432). Cambiar la región si corresponde
+SUPABASE_DB_URL=jdbc:postgresql://aws-0-sa-east-1.pooler.supabase.com:5432/postgres?sslmode=require
+
+# Usuario del pooler: postgres.<referencia-del-proyecto>
+SUPABASE_DB_USER=postgres.xxxxxxxxxxxxxxxxxxxx
+
+# Clave de la base de datos (la que se eligió al crear el proyecto)
+SUPABASE_DB_PASSWORD=cambiar-por-la-clave
